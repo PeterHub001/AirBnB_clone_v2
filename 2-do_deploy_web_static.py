@@ -8,8 +8,7 @@ import os.path
 from fabric.api import *
 from fabric.operations import run, put, sudo
 env.hosts = ["54.175.59.46", "35.153.79.133"]
-env.user = 'ubuntu'
-env.key_filename = '~/.ssh/id_rsa/'
+
 
 def do_deploy(archive_path):
     """ script that distributes archive to web servers
