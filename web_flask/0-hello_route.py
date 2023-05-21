@@ -1,5 +1,3 @@
-#!/usr/bin/python3
-
 from flask import Flask
 
 # Create the Flask application
